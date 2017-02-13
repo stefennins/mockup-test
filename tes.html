@@ -1,0 +1,203 @@
+<html>
+<title>TRY</title>
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+<body>
+<style>
+body{
+	padding: 0;
+	margin: 0;
+	padding-bottom: 45px;
+	background-color: #f2f2f2;
+	font-family: arial;
+	font-size: 1.1em;
+}
+
+input:focus, select:focus, textarea:focus, button:focus{
+	outline: none;
+}
+
+.header, .footer{
+	z-index: 9999;
+	position: fixed;
+	left: 0;
+	width: 100%;
+}
+
+.header{
+	color: #d5ffd5;
+	background-color: #2ca02c;
+	top: 0px;
+	display: block;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .5);
+}
+
+.footer{
+	background-color: #ffffff;
+	bottom: 0px;
+}
+
+.icon-back, .title{
+	padding: 10px;
+	float: left;
+}
+
+.title{
+	margin-top: 1px;
+}
+
+.option{
+	padding: 10px;
+	float: right;
+}
+
+.icon-back{
+	padding-left: 15px;
+}
+
+.option{
+	padding-right: 15px;
+}
+
+.icon-add, .icon-emot, .input{
+	padding: 10px;
+	float: left;
+}
+
+.icon-emot, .input{
+	padding-left: 0;
+}
+
+.input input{
+	margin-top: 2px;
+	width: 100%;
+	border: none;
+}
+
+.icon-send{
+	padding: 10px;
+	background-color: #2ca02c;
+	float: right;
+}
+
+.icon img{
+	height: 20px;
+}	
+
+.content{
+	float: left;
+	margin-top: 45px;
+	margin-bottom: 55px;
+}
+
+.message{
+	padding: 10px;
+	padding-bottom: 0px;
+	font-size: .8em;
+	float: left;
+}
+
+.right m{
+	float: right;
+	padding-right: 20px;
+}
+
+.left-m div{
+	float: left;
+}
+
+.right-m div{
+	float: right;
+}
+
+.message .picture img{
+	height: 45px;
+	width: 45px;
+}
+
+.message .text{
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.left-m .text{
+	background-color: #e6e6e6;
+	max-width: 60%;
+}
+
+.right-m .text{
+	background-color: #afe9c6;
+	max-width: 70%;
+}
+
+.message .text p{
+	margin: 0;
+}
+
+</style>
+
+<div class="header">
+	<div class="icon icon-back">
+		<img src="arrow-left.png" />
+	</div>
+	<div class="title">
+		<span>PERSONAL CHAT</span>
+	</div>
+	<div class="icon option">
+		<img src="gear.png" />
+	</div>
+</div>
+
+<div class="content">
+	<div class="message left-m">
+		<div class="picture">
+			<img src="profile.png" />
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget dolor et nisi faucibus rutrum vel nec erat. Vivamus imperdiet ligula et finibus ornare.</p>
+		</div>
+	</div>
+	<div class="message right-m">
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget dolor et nisi faucibus rutrum vel nec erat. Vivamus imperdiet ligula et finibus ornare.</p>
+		</div>
+	</div>
+	<div class="message right-m">
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget dolor et nisi faucibus rutrum vel nec erat. Vivamus imperdiet ligula et finibus ornare.</p>
+		</div>
+	</div>
+	<div class="message left-m">
+		<div class="picture">
+			<img src="profile.png" />
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget dolor et nisi faucibus rutrum vel nec erat. Vivamus imperdiet ligula et finibus ornare.</p>
+		</div>
+	</div>
+	<div class="message left-m">
+		<div class="picture">
+			<img src="profile.png" />
+		</div>
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget dolor et nisi faucibus rutrum vel nec erat. Vivamus imperdiet ligula et finibus ornare.</p>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="icon icon-add">
+		<img src="plus-thin.png" />
+	</div>
+	<div class="icon icon-emot" />
+		<img src="emot.png">
+	</div>
+	<div class="input">
+		<input type="text" placeholder="Type message here.." />
+	</div>
+	<div class="icon icon-send">
+		<img src="send.png" />
+	</div>
+</div>
+</body>
+</html>
